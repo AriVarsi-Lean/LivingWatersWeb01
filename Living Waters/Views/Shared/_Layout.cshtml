@@ -1,0 +1,317 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <!-- Basic -->
+    <meta charset="utf-8">
+    <title>Living Waters Seminary| Home</title>
+    <meta name="keywords" Content="Broadcasting" />
+    <meta name="description" Content="Namibia Equity Broadcasting">
+    <meta name="author"  Content="nequitygroup.com">
+
+    <!-- Mobile Metas -->
+    <meta name="viewport" Content="width=device-width, initial-scale=1.0">
+    <!-- Theme CSS -->
+    <link href="~/Content/style.css" rel="stylesheet" media="screen">
+    <!-- Responsive CSS -->
+    <link href="~/Content/theme-responsive.css" rel="stylesheet" media="screen">
+    <!-- Skins Theme -->
+    <link href="#" rel="stylesheet" media="screen" class="skin">
+
+    <!-- Favicons -->
+    <link rel="shortcut icon" href="img/icons/favicon.ico">
+    <link rel="apple-touch-icon" href="img/icons/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/icons/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/icons/apple-touch-icon-114x114.png">
+
+    <!-- Head Libs -->
+    <script src="~/js/modernizr.js"></script>
+
+    <!--[if IE]>
+        <link rel="stylesheet" href="~/Content/ie/ie.css">
+    <![endif]-->
+    <!--[if lte IE 8]>
+        <script src="~/js/responsive/html5shiv.js"></script>
+        <script src="~/js/responsive/respond.js"></script>
+    <![endif]-->
+    <!-- Skins Changer-->
+    <script type="text/javascript" src="http://www.google.com/jsapi"></script>
+</head>
+
+<body>
+
+
+    <!-- layout-->
+    <div id="layout">
+        <!-- Header-->
+        <header>
+            <!-- End headerbox-->
+            <div class="headerbox">
+                <div class="container">
+                    <div class="row">
+                        <!-- Logo-->
+                        <div class="col-md-12 ">
+                            <div class="pull-right">
+
+                                <nav class="menu">
+                                    <div class="container">
+
+                                        <!-- Menu-->
+                                        <ul class="sf-menu" id="menu">
+                                            <li class="selected">
+                                                @Html.ActionLink("Downloads", "Downloads", "Home")
+                                            </li>
+                                            <!-- -->
+                                            <li class="">
+                                                @Html.ActionLink("Administration", "Administration", "Home")</li>
+                                            <li class="current">
+                                                  @Html.ActionLink("Vacancies", "Vacancies", "Home")</li>
+                                            <li class="">
+                                                @Html.ActionLink("Student Login", "Login", "Account")
+                                            </li>
+                                            <li class="">@Html.ActionLink("Login", "Login", "Account")
+                                                </li>
+                                        </ul>
+                                        <form class="search" action="#" method="Post">
+                                            <div class="input-group">
+                                                <input class="form-control" placeholder="Search..." name="email" type="email" required="required">
+                                                <span class="input-group-btn">
+                                                    <button class="btn btn-primary" type="submit" name="subscribe">Go!</button>
+                                                </span>
+                                            </div>
+                                        </form>
+
+                                    </div>
+                                    </nav>
+                            </div>
+                            <br>
+                            <div class="col-md-4 logo">
+                                <img src="~/img/afm_logo_vector-01.png" alt="Logo" class="logo_img">
+                                <a href="~/Views/Home/Index.cshtml" title="Return Home">
+                                    <img src="~/img/Untitled-1.png" alt="Logo" class="logo_img">
+                                </a>
+                            </div>
+                            <!-- End Logo-->
+                            <!-- Adds Header-->
+                            <div class="col-md-8 adds">
+                                <a href="#" target="_blank">
+                                    <img src="~/img/adds/banner.jpg" alt="" class="img-responsive">
+                                </a>
+                            </div>
+                            <!-- End Adds Header-->
+                        </div>
+                    </div>
+                </div>
+                <!-- End headerbox-->
+                <!-- mainmenu-->
+                <nav class="mainmenu">
+                    <div class="container">
+
+                        <!-- Menu-->
+                        <ul class="sf-menu" id="menu">
+                            <li class="selected">
+                                @Html.ActionLink("Home", "Index","Home")</li>
+                            <li class="">
+                                @Html.ActionLink("About us", "About", "Home")</li>
+                            <li class="">
+                                @Html.ActionLink("News", "News", "Home")</li>
+                            <li class="">
+                                @Html.ActionLink("Centres", "Centres", "Home")</li>
+                            <li>
+                                @Html.ActionLink("Admissions", "Admissions", "Home")</li>
+                            <li class="">
+                                @Html.ActionLink("Library", "Library", "Home")</li>
+                            <li class="">
+                                @Html.ActionLink("Gallery", "Gallery", "Home")</li>
+                            <li class="">
+                                @Html.ActionLink("News & Events", "Events", "Home")</li>
+                            <li>
+                                @Html.ActionLink("Contact us", "Contact", "Home")</li>
+                        </ul>
+                        <!-- End Menu-->
+                    </div>
+                </nav>
+                <!-- End mainmenu-->
+            </div>
+        </header>
+     
+    </div>
+  
+    <div class="container body-~/Content">
+        @RenderBody()
+        <hr />
+        <!-- footer-->
+        <footer id="footer">
+            <div class="container">
+
+                <!-- Wiguets Footer-->
+                <div class="row">
+
+                    <!-- Twitter Wiguet-->
+                    <div class="col-xs-12 col-sm-7 col-md-3 col-lg-4">
+                        <div class="divisor-footer">
+
+                            <h4>Follow Us</h4>
+                            <img src="~/img/fblike-widget-options.jpg">
+                        </div>
+                    </div>
+                    <!-- End Twitter Wiguet-->
+                    <!-- Tags Wiguet-->
+                    <div class="col-xs-12 col-sm-5 col-md-3 col-lg-3">
+                        <div class="tags">
+                            <h4>Corporate</h4>
+                            <div align="justify">
+                                Living Waters Seminaryis a Theology training College  launched on the 10th of September 2014. It is registered as Namibia   Equity Broadcasting and is trading as Equity FM(E FM) and Equity TV (E   TV).                                            <br>
+                                AFM and TV provide high quality   and reliability of its TV and radio products and services, providing   leadership in solid state of the art technologies for analog and digital   FM and TV broadcasting.
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Tags Wiguet-->
+                    <!-- Links Wiguet-->
+                    <div class="col-xs-12 col-sm-6 col-md-3 col-lg-2">
+                        <h4>Related Links</h4>
+                        <ul class="links">
+                            <li><i class="fa fa-check"></i> <a href="#">BBC</a></li>
+                            <li><i class="fa fa-check"></i> <a href="#">NBC</a></li>
+                            <li><i class="fa fa-check"></i> <a href="#">CNN</a></li>
+                            <li><i class="fa fa-check"></i> <a href="#">CBS</a></li>
+                        </ul>
+                    </div>
+                    <!-- End Links Wiguet-->
+                    <!-- flickr Wiguet-->
+                    <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+                        <h4>Recent Photos</h4>
+                        <table width="235" height="284">
+                            <tr>
+                                <td width="80"><a href="#"><img src="~/img/icons/apple-touch-icon-72x72.png" width="72" height="72"></a> </td>
+                                <td width="80"><a href="#"><img src="~/img/icons/apple-touch-icon-72x72.png" width="72" height="72"></a></td>
+                                <td width="80"><a href="#"><img src="~/img/icons/apple-touch-icon-72x72.png" width="72" height="72"></a></td>
+                            </tr>
+                            <tr>
+                                <td width="80"><a href="#"><img src="~/img/icons/apple-touch-icon-72x72.png" width="72" height="72"></a></td>
+                                <td width="80"><a href="#"><img src="~/img/icons/apple-touch-icon-72x72.png" width="72" height="72"></a></td>
+                                <td width="80"><a href="#"><img src="~/img/icons/apple-touch-icon-72x72.png" width="72" height="72"></a></td>
+                            </tr>
+                            <tr>
+                                <td width="80"><a href="#"><img src="~/img/icons/apple-touch-icon-72x72.png" width="72" height="72"></a></td>
+                                <td width="80"><a href="#"><img src="~/img/icons/apple-touch-icon-72x72.png" width="72" height="72"></a></td>
+                                <td width="80"><a href="#"><img src="~/img/icons/apple-touch-icon-72x72.png" width="72" height="72"></a></td>
+                            </tr>
+                        </table>
+                    </div>
+                    <!-- End flickr Wiguet-->
+                </div>
+                <!-- End Wiguets Footer-->
+                <!-- Social Icons-->
+                <div class="row">
+                    <ul class="social">
+                        <li>
+                            <div>
+                                <a href="#" class="facebook">
+                                    <i class="fa fa-facebook"></i>
+                                </a>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <a href="#" class="twitter-icon">
+                                    <i class="fa fa-twitter"></i>
+                                </a>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <a href="#" class="vimeo">
+                                    <i class="fa fa-vimeo-square"></i>
+                                </a>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <a href="#" class="google-plus">
+                                    <i class="fa fa-google-plus"></i>
+                                </a>
+                            </div>
+                        </li>
+                        <li>
+                            <div>
+                                <a href="#" class="youtube">
+                                    <i class="fa fa-youtube"></i>
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <!-- End Social Icons-->
+
+            </div>
+        </footer>
+        <!-- End footer-->
+        <!-- footer Down-->
+        <div class="footer-down">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5">
+                        <p>&copy; KTA Solutions. 2016</p>
+                    </div>
+                    <div class="col-md-7">
+                        <!-- Nav Footer-->
+                        <ul class="nav-footer">
+                            <li><a href="#">HOME</a> </li>
+                            <li><a href="#">EVENTS</a></li>
+                            <li><a href="#">ENTERTAINMENT</a></li>
+                            <li><a href="#">GALLERY</a></li>
+                            <li><a href="#">SPORT</a></li>
+                            <li><a href="#">CONTACT</a></li>
+                        </ul>
+                        <!-- End Nav Footer-->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- footer Down-->
+
+    </div>
+    <!-- End layout-->
+    <!-- ======================= JQuery libs =========================== -->
+    <!-- jQuery local-->
+    <script src="~/js/jquery.js"></script>
+    <!--Nav-->
+    <script type="text/javascript" src="~/js/nav/tinynav.js"></script>
+    <script type="text/javascript" src="~/js/nav/hoverIntent.js"></script>
+    <script type="text/javascript" src="~/js/nav/superfish.js"></script>
+    <script src="~/js/nav/jquery.sticky.js" type="text/javascript"></script>
+    <!--Totop-->
+    <script type="text/javascript" src="~/js/totop/jquery.ui.totop.js"></script>
+    <!--Accorodion-->
+    <script type="text/javascript" src="~/js/accordion/accordion.js"></script>
+    <!--Slide-->
+    <script type="text/javascript" src="~/js/slide/camera.js"></script>
+    <script type="text/javascript" src="~/js/slide/jquery.easing.1.3.min.js"></script>
+    <!-- Maps -->
+    <script src="~/js/maps/gmap3.js"></script>
+    <!--Ligbox-->
+    <script type="text/javascript" src="~/js/fancybox/jquery.fancybox.js"></script>
+    <!-- carousel.js-->
+    <script src="~/js/carousel/carousel.js"></script>
+    <!-- Filter -->
+    <script src="~/js/filters/jquery.isotope.js" type="text/javascript"></script>
+    <!-- Twitter Feed-->
+    <script src="~/js/twitter/jquery.tweet.js"></script>
+    <!-- flickr Feed-->
+    <script src="~/js/flickr/jflickrfeed.min.js"></script>
+    <!-- Counter -->
+    <script src="~/js/counter/jquery.countdown.js"></script>
+    <!--Theme Options-->
+    <script type="text/javascript" src="~/js/theme-options/theme-options.js"></script>
+    <script type="text/javascript" src="~/js/theme-options/jquery.cookies.js"></script>
+    <!-- Bootstrap.js-->
+    <script type="text/javascript" src="~/js/bootstrap/bootstrap.js"></script>
+    <!--MAIN FUNCTIONS-->
+    <script type="text/javascript" src="~/js/main.js"></script>
+    <!-- ======================= End JQuery libs =========================== -->
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>
