@@ -92,5 +92,12 @@ namespace Living_Waters.Controllers
             //return View("Contact", "~/Views/Shared/View");
             return View();
         }
+		public ActionResult Applications()
+		{
+			ViewBag.Message = "Your contact page.";
+
+			//return View("Contact", "~/Views/Shared/View");
+			return View();
+		}
     }
 }

@@ -5,10 +5,10 @@
 // Template Name: Sports Cup- Responsive HTML5  soccer and sports Template.
 // Author: Iwthemes.
 // Name File: theme-options.js
-// Version 1.0 - Created on 20 May 2016
+// Version 1.0 - Created on 20 May 2014
 // Website: http://www.iwthemes.com 
 // Email: support@iwthemes.com
-// Copyright: (C) 2016
+// Copyright: (C) 2014
 // -------------------------------------------------------------------------------------------------------------------------------
 
   $(document).ready(function($) {

@@ -5,10 +5,10 @@
 // Template Name: Sports Cup- Responsive HTML5  soccer and sports Template.
 // Author: Iwthemes.
 // Name File: main.js
-// Version 1.0 - Created on 20 May 2016
+// Version 1.0 - Created on 20 May 2014
 // Website: http://www.iwthemes.com 
 // Email: support@iwthemes.com
-// Copyright: (C) 2016
+// Copyright: (C) 2014
 
 $(document).ready(function($) {
 
@@ -108,7 +108,7 @@ $(document).ready(function($) {
 
   //=================================== Counter  ==============================//
 
-   $('#event-one').countdown('2016/06/12', function(event) {
+   $('#event-one').countdown('2014/06/12', function(event) {
       var $this = $(this).html(event.strftime(''
       + '<span>%D <br> <small>days</small></span>  '
       + '<span>%H <br> <small>hr</small> </span>  '
@@ -116,14 +116,14 @@ $(document).ready(function($) {
       + '<span>%S <br> <small>sec</small></span> '));
    });
 
-   $('#event-two').countdown('2016/09/10', function(event) {
+   $('#event-two').countdown('2014/09/10', function(event) {
       var $this = $(this).html(event.strftime(''
       + '<span>%D <br> <small>days</small></span>  '
       + '<span>%H <br> <small>hr</small> </span>  '
       + '<span>%M <br> <small>min</small> </span>  '
       + '<span>%S <br> <small>sec</small></span> '));
    });
-   $('#event-three').countdown('2016/12/24', function(event) {
+   $('#event-three').countdown('2014/12/24', function(event) {
       var $this = $(this).html(event.strftime(''
       + '<span>%D <br> <small>days</small></span>  '
       + '<span>%H <br> <small>hr</small> </span>  '
