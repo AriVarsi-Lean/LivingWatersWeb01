@@ -1,0 +1,14 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="chromium-browser" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Living Waters/Views/Home/Applications.cshtml">
+    <Files>
+      <File FileName="Living Waters/Views/Shared/_Layout.cshtml" Line="65" Column="65" />
+      <File FileName="Living Waters/Controllers/HomeController.cs" Line="29" Column="29" />
+      <File FileName="Living Waters/Views/Home/Applications.cshtml" Line="5" Column="5" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

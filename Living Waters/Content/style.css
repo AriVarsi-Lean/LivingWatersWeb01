@@ -1,13 +1,13 @@
-﻿@charset "utf-8";
+@charset "utf-8";
 
 /* ============================== 
 	- Template Name: Sports Cup- Responsive HTML5  soccer and sports Template
 	- Autor: Iwthemes
 	- Email: support@iwthemes.com
 	- Name File: style.css
-	- Version 1.0 - Created on 20 May 2016
+	- Version 1.0 - Created on 20 May 2014
 	- Website: http://www.iwthemes.com 
-	- Copyright: (C) 2016
+	- Copyright: (C) 2014
 ================================= */	
 
 /* ---------------------- 
@@ -564,42 +564,42 @@ header{
 	z-index: 0;
 }
 .img-about{
-	background: url("..~/img/section-titles/1.jpg");
+	background: url("../img/section-titles/1.jpg");
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
 	background-position: center center;
 }
 .img-sports{
-	background: url("..~/img/section-titles/2.jpg");
+	background: url("../img/section-titles/2.jpg");
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
 	background-position: center center;
 }
 .img-gallery{
-	background: url("..~/img/section-titles/3.jpg");
+	background: url("../img/section-titles/3.jpg");
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
 	background-position: center center;
 }
 .img-feature{
-	background: url("..~/img/section-titles/4.jpg");
+	background: url("../img/section-titles/4.jpg");
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
 	background-position: center center;
 }
 .img-news{
-	background: url("..~/img/section-titles/5.jpg");
+	background: url("../img/section-titles/5.jpg");
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
 	background-position: center center;
 }
 .img-contact{
-	background: url("..~/img/section-titles/6.jpg");
+	background: url("../img/section-titles/6.jpg");
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
@@ -681,7 +681,7 @@ header{
 /* Footer ----------------------------------------------------------------*/
 
 footer{
-	background: #222 url("..~/img/img-theme/bgfooter.jpg");
+	background: #222 url("../img/img-theme/bgfooter.jpg");
 	color: #888;
 	margin-top: 40px;
 	padding-top: 110px;
@@ -817,10 +817,10 @@ footer .social li i {
 	border:none;
 	text-indent:100%;
 	z-index: 9999;
-	background:url("..~/img/img-theme/ui.totop.png") no-repeat left top;
+	background:url("../img/img-theme/ui.totop.png") no-repeat left top;
 }
 #toTopHover {
-	background:url("..~/img/img-theme/ui.totop.png") no-repeat left -51px;
+	background:url("../img/img-theme/ui.totop.png") no-repeat left -51px;
 	width:51px;
 	height:51px;
 	display:block;
@@ -838,7 +838,7 @@ footer .social li i {
 .acc-trigger { cursor: pointer;  margin: 0 0 0 0; width: 100%;	}
 .no-js .acc-trigger:last-of-type { border-bottom: none; }
 .acc-trigger a { 
-	background: url("..~/img/img-theme/accordion-ico.png") no-repeat 14px 13px; 
+	background: url("../img/img-theme/accordion-ico.png") no-repeat 14px 13px; 
 	display: block; 
 	padding: 11px 20px 11px 44px; 
 	text-decoration: none; 
@@ -1061,17 +1061,17 @@ footer .social li i {
 	margin-right:2px; 
 	font-size: 14px;  
 	padding:10px 0 0 0;
-	background:url("..~/img/img-theme/line_tree1.gif") left repeat-y;
+	background:url("../img/img-theme/line_tree1.gif") left repeat-y;
 }
 .sitemap li{ 
 	float:left; 
 	width:347px; 
 	padding-left:25px; 
 	line-height: 35px;
-	background:url("..~/img/img-theme/line_tree2.gif") 0 center no-repeat;
+	background:url("../img/img-theme/line_tree2.gif") 0 center no-repeat;
 }
 .sitemap li.has_sub{ 
-	background:url("..~/img/img-theme/line_tree2.gif") 0 17px no-repeat;
+	background:url("../img/img-theme/line_tree2.gif") 0 17px no-repeat;
 }
 .sitemap li a{ 
 	color:#666; 
@@ -1183,7 +1183,7 @@ footer .social li i {
 .post-item{
 	padding-bottom: 35px;
 	margin-bottom: 35px;
-	background: url("..~/img/img-theme/border-pattern.gif") bottom left repeat-x;
+	background: url("../img/img-theme/border-pattern.gif") bottom left repeat-x;
 }
 .post-item:last-child{
 	background:none;

@@ -3,5 +3,126 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h2>Applications</h2>
+<section class="section-title img-contact">
+    <div class="overlay-bg"></div>
+    <div class="container">
+        <h1>Contact Us</h1>
+    </div>
+</section>
+<!-- End Section Title -->
+<!-- Section Area - Content Central -->
+<section class="content-info">
+
+    <div class="crumbs">
+        <div class="container">
+            <ul>
+                <li>@Html.ActionLink("Home", "Index", "Home")</li>
+
+                <li>/</li>
+                <li>Contact Us</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="semiboxshadow text-center">
+        <img src="~/img/img-theme/shp.png" class="img-responsive" alt="">
+    </div>
+    <div>
+        <!-- Include the Google CSS package -->
+        <link rel="stylesheet" href="https://ssl.gstatic.com/docs/script/css/add-ons.css">
+        <!-- You can also include your own CSS styles -->
+        
+        <script>
+            // The function will be called after the form is submitted
+            function uploadFile() {
+                document.getElementById('uploadFile').value = "Uploading File..";
+                google.script.run
+                    .withSuccessHandler(fileUploaded)
+                    .uploadFiles(document.getElementById("labnol"));
+                return false;
+            }
+
+            // This function will be called after the Google Script has executed
+            function fileUploaded(status) {
+                document.getElementById('labnol').style.display = 'none';
+                document.getElementById('output').innerHTML = status;
+            }
+        </script>
+        <!-- This is the HTML form -->
+        <form class="form-horizontal" id="labnol">
+
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.Name, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.Title, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.Title, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.Category, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.Category, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.Category, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.SubCategory, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.SubCategory, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.SubCategory, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.JobDescription, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.JobDescription, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.JobDescription, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.Requirements, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.Requirements, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.Requirements, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.EntryVersionDate, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.EntryVersionDate, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(model => model.EntryVersionDate, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+
+
+            <div class="form-group">
+                @Html.LabelFor(model => model.HasPhotos, htmlAttributes: new { @class = "control-label col-md-2" })
+                <div class="col-md-10">
+                    <div class="checkbox">
+                        @Html.EditorFor(model => model.HasPhotos)
+                        @Html.ValidationMessageFor(model => model.HasPhotos, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+            </div>
+            <!-- Text input fields -->
+            <input type="text" name="myName" placeholder="Your name..">
+            <input type="email" name="myEmail" placeholder="Your email..">
+            <!-- File input filed -->
+            <input type="file" name="myFile">
+            <!-- The submit button. It calls the server side function uploadfiles() on click -->
+            <input type="submit" id="uploadFile" value="Upload File" onclick="this.value='Uploading..';uploadFile();">
+        </form>
+        <!-- Here the results of the form submission will be displayed -->
+        <div id="output"></div>
+    </div>
+    </section>
+
+
 
